@@ -1,0 +1,10 @@
+# Phase 1: tabular MLP baseline
+data:
+  csv_path: null        # set to data/raw/creditcard.csv once downloaded
+model:
+  hidden_dim: 64
+  dropout: 0.2
+train:
+  epochs: 30
+  lr: 0.001
+  seed: 0

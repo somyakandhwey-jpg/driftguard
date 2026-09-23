@@ -1,0 +1,13 @@
+# Phase 5: unsupervised graph diffusion anomaly detector + continual updates
+data:
+  data_dir: null
+  num_chunks: 7
+diffusion:
+  timesteps: 200
+  probe_t: 50
+continual:
+  ewc_lambda: 500.0
+train:
+  epochs_per_chunk: 60
+  lr: 0.002
+  seed: 0

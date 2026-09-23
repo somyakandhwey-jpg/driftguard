@@ -1,0 +1,12 @@
+# Phase 2: GraphSAGE node classifier on Elliptic
+data:
+  data_dir: null         # set to data/raw/elliptic once downloaded
+model:
+  hidden_dim: 128
+  num_layers: 3
+  dropout: 0.2
+train:
+  epochs: 100
+  lr: 0.005
+  weight_decay: 0.0005
+  seed: 0

@@ -1,0 +1,8 @@
+# Phase 3: concept-drift simulation (static model degradation)
+data:
+  data_dir: null
+  num_chunks: 7
+train:
+  epochs: 80
+  lr: 0.005
+  seed: 0

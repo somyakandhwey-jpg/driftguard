@@ -1,0 +1,11 @@
+# Phase 4: continual learning (EWC + replay) across time chunks
+data:
+  data_dir: null
+  num_chunks: 7
+continual:
+  ewc_lambda: 1000.0
+  replay_capacity: 1000
+train:
+  epochs_per_chunk: 40
+  lr: 0.005
+  seed: 0
