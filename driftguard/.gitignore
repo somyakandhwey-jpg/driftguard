@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+data/raw/
+checkpoints/
+*.pt
+*.pth
+.DS_Store
+.vscode/
+results/*.png
+!results/.gitkeep
+.pytest_cache/
+EOF
